@@ -1,0 +1,425 @@
+2025-05-07 09:16:45 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:45 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:47 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:47 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:47 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:47 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:48 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:48 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:48 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:48 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:49 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:49 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:50 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:50 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:50 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:50 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:51 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:16:51 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:51 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:51 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:52 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:52 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:52 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:52 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:53 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:53 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:53 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:16:53 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:54 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:16:54 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:55 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:55 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:55 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:55 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:56 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:56 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:57 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:57 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:57 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:57 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:16:58 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:16:58 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:48 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:19:48 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:49 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:19:49 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:49 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:19:49 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:50 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:19:50 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:51 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:19:51 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:51 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:19:51 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:53 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:19:53 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:19:56 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:19:56 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:40 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:41 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:41 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:42 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:42 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:43 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:43 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:43 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:23:43 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:44 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:23:44 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:44 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:44 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:45 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:45 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:45 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:23:45 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:46 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:46 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:46 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:47 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:47 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:23:47 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:48 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:48 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:48 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:48 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:49 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:49 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:49 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 09:23:49 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 09:23:50 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 09:23:50 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:17:22 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:17:22 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:17:23 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:17:23 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:17:24 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:17:24 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:17:24 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:17:24 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:17:25 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:17:25 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:17:25 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:17:25 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:17:26 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:17:26 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:22 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:22 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:22 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:22 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:23 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:23 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:23 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:23 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:24 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:24 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:25 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:25 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:26 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:26 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:27 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:27 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:27 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:22:27 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:28 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:28 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:29 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:29 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:36 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:36 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:39 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:39 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:40 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:40 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:41 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:22:41 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:22:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:29 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:29 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:30 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:30 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:30 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:30 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:31 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:31 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:32 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:32 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:32 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:32 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:33 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:33 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:33 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:33 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:34 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:34 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:34 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:34 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:35 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:35 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:36 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:36 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:37 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:37 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:37 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:37 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:38 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:38 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:38 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:38 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:39 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:39 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:39 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:39 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:40 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:40 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:41 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:42 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:42 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:42 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:42 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:43 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:43 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:43 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:43 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:44 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:44 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:44 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:44 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:45 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:45 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:46 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:46 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:46 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:46 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:47 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:47 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:47 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:47 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:48 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:48 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:48 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:49 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:49 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:49 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:50 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:50 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:50 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:50 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:51 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:51 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:51 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:27:51 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:52 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:52 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:27:52 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:27:53 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:20 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:32:20 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:21 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:32:21 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:22 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:22 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:24 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:24 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:24 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:24 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:25 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:32:25 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:25 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:25 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:26 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:26 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:39 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:32:39 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:41 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:41 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:42 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 10:32:42 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 10:32:42 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 10:32:42 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:53 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:53 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:53 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:53 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:54 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:54 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:55 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:55 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:55 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:55 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:56 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:56 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:56 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:56 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:57 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:27:57 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:57 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:57 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:58 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:58 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:27:59 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:27:59 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:00 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:00 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:01 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:01 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:02 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:02 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:03 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:28:03 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:34 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:34 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:35 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:35 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:35 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:35 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:36 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:36 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:37 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:37 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:37 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:28:37 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:38 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:38 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:39 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:39 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:39 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:28:39 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:40 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:28:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:28:40 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:28:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:31 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:31 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:32 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:29:32 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:32 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:32 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:33 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:29:33 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:37 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:37 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:38 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:38 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:38 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:29:38 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:39 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:39 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:40 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:40 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:40 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:41 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:42 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:42 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:42 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:42 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:29:43 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:29:43 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:30:21 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:30:21 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:30:24 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:30:24 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:52 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:52 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:54 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:54 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:54 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:54 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:55 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:55 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:55 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:55 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:56 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:56 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:56 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:52:56 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:57 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 11:52:57 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:58 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:58 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 11:52:58 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 11:52:58 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:24 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:24 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:25 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:25 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:25 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:11:25 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:26 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:11:26 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:26 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:11:26 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:27 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:27 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:27 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:27 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:28 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:28 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:28 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:11:28 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:31 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:11:31 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:33 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:33 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:36 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:36 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:37 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:11:37 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:37 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:11:37 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:11:38 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:11:38 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:13:07 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:13:07 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:17 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:28:17 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:19 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:28:19 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:20 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:28:20 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:20 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:28:20 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:21 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:28:21 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:21 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:28:21 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:22 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:28:22 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:28:23 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 12:28:23 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:29:29 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:29:29 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 12:37:53 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 12:37:53 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 13:11:17 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 13:11:17 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 13:11:17 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 13:11:17 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 13:11:18 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 13:11:18 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 13:11:20 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 13:11:20 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 13:11:20 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-07 13:11:20 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-07 13:55:41 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-07 13:55:41 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-08 08:54:51 - API Error: {"error":{"description":"Authentication failed","code":"BAD_REQUEST_ERROR"}}
+2025-05-08 08:54:51 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-08 09:24:06 - API Error: {"error":{"code":"BAD_REQUEST_ERROR","description":"Authentication failed"}}
+2025-05-08 09:24:06 - Order Creation Response: {"error":true,"message":"Authentication failed"}
+2025-05-08 12:19:57 - Order Creation Response: {"amount":390000,"amount_due":390000,"amount_paid":0,"attempts":0,"created_at":1746699598,"currency":"INR","entity":"order","id":"order_QSOpA9JmvB7bxp","notes":[],"offer_id":null,"receipt":null,"status":"created"}
+2025-05-08 12:21:55 - Order Creation Response: {"amount":210000,"amount_due":210000,"amount_paid":0,"attempts":0,"created_at":1746699716,"currency":"INR","entity":"order","id":"order_QSOrFRd2KbsTdV","notes":[],"offer_id":null,"receipt":null,"status":"created"}
+2025-05-08 12:26:15 - Order Creation Response: {"amount":100,"amount_due":100,"amount_paid":0,"attempts":0,"created_at":1746699976,"currency":"INR","entity":"order","id":"order_QSOvoy1JaslW3I","notes":[],"offer_id":null,"receipt":null,"status":"created"}
