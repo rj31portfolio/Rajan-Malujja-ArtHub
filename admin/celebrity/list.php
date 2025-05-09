@@ -17,6 +17,15 @@ $photos = $pdo->query("SELECT * FROM celebrity_photos")->fetchAll();
     <title>Celebrity Photos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        .content {
+            margin-left: 250px; /* Adjust this value to match your sidebar width */
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            .main-content {
+                margin-left: 0; /* Remove margin for smaller screens */
+            }
+        }
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -52,26 +61,76 @@ $photos = $pdo->query("SELECT * FROM celebrity_photos")->fetchAll();
         .gallery-item a:hover {
             background: rgba(255, 0, 0, 1);
         }
+        .list-view table {
+            width: 100%;
+        }
+        .view-toggle {
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <?php include '../includes/header.php'; ?>
     <?php include '../includes/sidebar.php'; ?>
-    <div class="container mt-5">
-        <h1 class="text-center mb-4">Celebrity Photos</h1>
-        <div class="d-flex justify-content-end mb-3">
-            <a href="add.php" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Add New Photo</a>
-        </div>
-        <div class="gallery-grid">
-            <?php foreach ($photos as $photo): ?>
-                <div class="gallery-item">
-                    <img src="../../assets/uploads/<?php echo $photo['image_path']; ?>" alt="Celebrity Photo">
-                    <a href="delete.php?id=<?php echo $photo['id']; ?>" onclick="return confirm('Are you sure?')"><i class="bi bi-trash"></i> Delete</a>
+    <div class="content">
+        <div class="container mt-5">
+            <h1 class="text-center mb-4">Celebrity Photos</h1>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <a href="add.php" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Add New Photo</a>
+                <div>
+                    <span class="view-toggle btn btn-outline-secondary" data-view="grid">Grid View</span>
+                    <span class="view-toggle btn btn-outline-secondary" data-view="list">List View</span>
                 </div>
-            <?php endforeach; ?>
+            </div>
+
+            <!-- Grid View -->
+            <div id="grid-view" class="gallery-grid">
+                <?php foreach ($photos as $photo): ?>
+                    <div class="gallery-item">
+                        <img src="../../assets/uploads/<?php echo $photo['image_path']; ?>" alt="Celebrity Photo">
+                        <a href="delete.php?id=<?php echo $photo['id']; ?>" onclick="return confirm('Are you sure?')"><i class="bi bi-trash"></i> Delete</a>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+
+            <!-- List View -->
+            <div id="list-view" class="list-view d-none">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Photo</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($photos as $index => $photo): ?>
+                            <tr>
+                                <td><?php echo $index + 1; ?></td>
+                                <td>
+                                    <img src="../../assets/uploads/<?php echo $photo['image_path']; ?>" alt="Celebrity Photo" style="width: 100px; height: auto;">
+                                </td>
+                                <td>
+                                    <a href="delete.php?id=<?php echo $photo['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')"><i class="bi bi-trash"></i> Delete</a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
         </div>
-    </div>
+    
     <?php include '../includes/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Toggle between grid and list views
+        document.querySelectorAll('.view-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const view = button.getAttribute('data-view');
+                document.getElementById('grid-view').classList.toggle('d-none', view !== 'grid');
+                document.getElementById('list-view').classList.toggle('d-none', view !== 'list');
+            });
+        });
+    </script>
 </body>
 </html>
