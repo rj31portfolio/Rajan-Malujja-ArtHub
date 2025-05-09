@@ -14,18 +14,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $category_id = $_POST['category_id'];
     $price = $_POST['price'];
     $description = $_POST['description'];
+    $meta_description = $_POST['meta_description'];
     $stock = $_POST['stock'];
     $status = $_POST['status'];
     
-    // Handle main image
+    // Handle main images
     $main_image = uploadImage($_FILES['main_image'], 'arts');
-    if (!$main_image) {
-        $error = "Failed to upload main image";
+    $main_image_2 = uploadImage($_FILES['main_image_2'], 'arts');
+
+    if (!$main_image || !$main_image_2) {
+        $error = "Failed to upload one or more main images";
     } else {
         $pdo->beginTransaction();
         try {
-            $stmt = $pdo->prepare("INSERT INTO arts (title, slug, category_id, price, description, main_image, stock, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
-            $stmt->execute([$title, $slug, $category_id, $price, $description, $main_image, $stock, $status]);
+            $stmt = $pdo->prepare("INSERT INTO arts (title, slug, category_id, price, description, meta_description, main_image, main_image_2, stock, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt->execute([$title, $slug, $category_id, $price, $description, $meta_description, $main_image, $main_image_2, $stock, $status]);
             $art_id = $pdo->lastInsertId();
             
             // Handle gallery images
@@ -75,6 +78,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="text" name="title" required>
             </div>
             <div>
+                <label>Meta Description</label>
+                <textarea name="meta_description" required></textarea>
+            </div>
+            <div>
                 <label>Category</label>
                 <select name="category_id" required>
                     <?php foreach ($categories as $category): ?>
@@ -93,6 +100,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div>
                 <label>Main Image</label>
                 <input type="file" name="main_image" accept="image/*" required>
+            </div>
+            
+            <div>
+                <label>Main Image 2</label>
+                <input type="file" name="main_image_2" accept="image/*" required>
             </div>
             <div>
                 <label>Gallery Images</label>

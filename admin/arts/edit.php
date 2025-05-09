@@ -26,9 +26,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $category_id = $_POST['category_id'];
     $price = $_POST['price'];
     $description = $_POST['description'];
+    $meta_description = $_POST['meta_description'];
     $stock = $_POST['stock'];
     $status = $_POST['status'];
-    
+
     $pdo->beginTransaction();
     try {
         // Handle main image
@@ -42,11 +43,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 throw new Exception("Failed to upload main image");
             }
         }
-        
+
+        // Handle main image 2
+        $main_image_2 = $art['main_image_2'];
+        if (!empty($_FILES['main_image_2']['name'])) {
+            $new_image_2 = uploadImage($_FILES['main_image_2'], 'arts');
+            if ($new_image_2) {
+                unlink(__DIR__ . '/../../assets/uploads/' . $main_image_2);
+                $main_image_2 = $new_image_2;
+            } else {
+                throw new Exception("Failed to upload main image 2");
+            }
+        }
+
         // Update art
-        $stmt = $pdo->prepare("UPDATE arts SET title = ?, slug = ?, category_id = ?, price = ?, description = ?, main_image = ?, stock = ?, status = ? WHERE id = ?");
-        $stmt->execute([$title, $slug, $category_id, $price, $description, $main_image, $stock, $status, $id]);
-        
+        $stmt = $pdo->prepare("UPDATE arts SET title = ?, slug = ?, category_id = ?, price = ?, description = ?, meta_description = ?, main_image = ?, main_image_2 = ?, stock = ?, status = ? WHERE id = ?");
+        $stmt->execute([$title, $slug, $category_id, $price, $description, $meta_description, $main_image, $main_image_2, $stock, $status, $id]);
+
         // Handle gallery images
         if (!empty($_FILES['gallery_images']['name'][0])) {
             foreach ($_FILES['gallery_images']['tmp_name'] as $key => $tmp_name) {
@@ -64,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
             }
         }
-        
+
         // Handle gallery image deletions
         if (!empty($_POST['delete_images'])) {
             foreach ($_POST['delete_images'] as $image_id) {
@@ -78,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
             }
         }
-        
+
         $pdo->commit();
         redirect('list.php');
     } catch (Exception $e) {
@@ -110,6 +123,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="text" name="title" value="<?php echo $art['title']; ?>" required>
             </div>
             <div>
+                <label>Meta Description</label>
+                <textarea name="meta_description" required><?php echo $art['meta_description']; ?></textarea>
+            </div>
+            <div>
                 <label>Category</label>
                 <select name="category_id" required>
                     <?php foreach ($categories as $category): ?>
@@ -127,6 +144,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <label>Description</label>
                 <textarea name="description" id="editor"><?php echo $art['description']; ?></textarea>
             </div>
+            
             <div>
                 <label>Current Main Image</label>
                 <img src="../../assets/uploads/<?php echo $art['main_image']; ?>" alt="<?php echo $art['title']; ?>" width="100">
@@ -134,6 +152,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div>
                 <label>New Main Image (Optional)</label>
                 <input type="file" name="main_image" accept="image/*">
+            </div>
+            <div>
+                <label>Current Main Image 2</label>
+                <img src="../../assets/uploads/<?php echo $art['main_image_2']; ?>" alt="<?php echo $art['title']; ?>" width="100">
+            </div>
+            <div>
+                <label>New Main Image 2 (Optional)</label>
+                <input type="file" name="main_image_2" accept="image/*">
             </div>
             <div>
                 <label>Gallery Images</label>
