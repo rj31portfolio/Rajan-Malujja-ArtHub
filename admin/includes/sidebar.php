@@ -49,5 +49,6 @@
         <li><a href="<?php echo ADMIN_URL; ?>celebrity/list.php"><i class="bi bi-star-fill"></i> Celebrity Gallery</a></li>
         <li><a href="<?php echo ADMIN_URL; ?>events/list.php"><i class="bi bi-calendar-event"></i> Event Gallery</a></li>
         <li><a href="<?php echo ADMIN_URL; ?>media/list.php"><i class="bi bi-camera-reels"></i> Media Gallery</a></li>
+        <li><a href="<?php echo ADMIN_URL; ?>award/list-awards.php"><i class="bi bi-trophy"></i> Awards</a></li> <!-- Added Awards Link -->
     </ul>
 </div>
