@@ -1,5 +1,4 @@
 <?php
-<?php
 require_once '../includes/db.php';
 
 $id = $_GET['id'] ?? null;
@@ -24,7 +23,5 @@ unlink($uploadDir . $award['image_path']);
 $stmt = $pdo->prepare("DELETE FROM awards WHERE id = ?");
 $stmt->execute([$id]);
 
-echo "Award deleted successfully!";
 header('Location: list-awards.php');
 exit;
-?>

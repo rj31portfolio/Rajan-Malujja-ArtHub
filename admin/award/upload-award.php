@@ -13,12 +13,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (move_uploaded_file($image['tmp_name'], $imagePath)) {
             $stmt = $pdo->prepare("INSERT INTO awards (image_path, title) VALUES (?, ?)");
             $stmt->execute([basename($image['name']), $title]);
-            echo "Award uploaded successfully!";
+            $successMessage = "Award uploaded successfully!";
         } else {
-            echo "Failed to upload image.";
+            $errorMessage = "Failed to upload image.";
         }
     } else {
-        echo "Please provide a title and a valid image.";
+        $errorMessage = "Please provide a title and a valid image.";
     }
 }
 ?>
@@ -29,17 +29,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload Award</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Upload New Award</h1>
-    <form action="" method="POST" enctype="multipart/form-data">
-        <label for="title">Award Title:</label>
-        <input type="text" name="title" id="title" required>
-        <br><br>
-        <label for="image">Award Image:</label>
-        <input type="file" name="image" id="image" accept="image/*" required>
-        <br><br>
-        <button type="submit">Upload Award</button>
-    </form>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Upload New Award</h1>
+
+        <!-- Display Success or Error Messages -->
+        <?php if (!empty($successMessage)): ?>
+            <div class="alert alert-success text-center"><?php echo $successMessage; ?></div>
+        <?php elseif (!empty($errorMessage)): ?>
+            <div class="alert alert-danger text-center"><?php echo $errorMessage; ?></div>
+        <?php endif; ?>
+
+        <div class="card shadow p-4">
+            <form action="" method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Award Title:</label>
+                    <input type="text" name="title" id="title" class="form-control" placeholder="Enter award title" required>
+                </div>
+                <div class="mb-3">
+                    <label for="image" class="form-label">Award Image:</label>
+                    <input type="file" name="image" id="image" class="form-control" accept="image/*" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary"><i class="bi bi-upload"></i> Upload Award</button>
+                    <a href="list-awards.php" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

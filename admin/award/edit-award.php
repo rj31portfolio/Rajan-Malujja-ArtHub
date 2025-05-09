@@ -38,11 +38,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt = $pdo->prepare("UPDATE awards SET title = ?, image_path = ? WHERE id = ?");
         $stmt->execute([$title, $imagePath, $id]);
 
-        echo "Award updated successfully!";
+        echo "<div class='alert alert-success text-center'>Award updated successfully!</div>";
         header('Location: list-awards.php');
         exit;
     } else {
-        echo "Title is required.";
+        echo "<div class='alert alert-danger text-center'>Title is required.</div>";
     }
 }
 ?>
@@ -53,17 +53,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Award</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Edit Award</h1>
-    <form action="" method="POST" enctype="multipart/form-data">
-        <label for="title">Award Title:</label>
-        <input type="text" name="title" id="title" value="<?php echo htmlspecialchars($award['title']); ?>" required>
-        <br><br>
-        <label for="image">Award Image (Leave blank to keep current image):</label>
-        <input type="file" name="image" id="image" accept="image/*">
-        <br><br>
-        <button type="submit">Update Award</button>
-    </form>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Edit Award</h1>
+        <div class="card shadow p-4">
+            <form action="" method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Award Title:</label>
+                    <input type="text" name="title" id="title" class="form-control" value="<?php echo htmlspecialchars($award['title']); ?>" required>
+                </div>
+                <div class="mb-3">
+                    <label for="image" class="form-label">Award Image (Leave blank to keep current image):</label>
+                    <input type="file" name="image" id="image" class="form-control" accept="image/*">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary"><i class="bi bi-save"></i> Update Award</button>
+                    <a href="list-awards.php" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
