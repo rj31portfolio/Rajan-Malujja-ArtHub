@@ -7,6 +7,10 @@ if (!isAdmin()) {
 }
 
 $arts = $pdo->query("SELECT a.*, c.name as category_name FROM arts a LEFT JOIN categories c ON a.category_id = c.id")->fetchAll();
+
+// Check for error messages
+$error = $_SESSION['error'] ?? null;
+unset($_SESSION['error']);
 ?>
 
 <!DOCTYPE html>
@@ -96,6 +100,14 @@ $arts = $pdo->query("SELECT a.*, c.name as category_name FROM arts a LEFT JOIN c
             background-color: #a71d2a;
             transform: translateY(-2px);
         }
+        .alert {
+            padding: 10px;
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -103,6 +115,12 @@ $arts = $pdo->query("SELECT a.*, c.name as category_name FROM arts a LEFT JOIN c
     <?php include '../includes/sidebar.php'; ?>
     <div class="content">
         <h2>Arts</h2>
+
+        <!-- Display error message -->
+        <?php if ($error): ?>
+            <div class="alert"><?php echo $error; ?></div>
+        <?php endif; ?>
+
         <a href="add.php" class="btn">Add New Art</a>
         <table>
             <thead>

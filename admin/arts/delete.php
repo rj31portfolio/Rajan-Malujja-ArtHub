@@ -7,41 +7,50 @@ if (!isAdmin()) {
 }
 
 $id = $_GET['id'] ?? 0;
-$pdo->beginTransaction();
+
 try {
-    // Fetch main image
-    $stmt = $pdo->prepare("SELECT main_image FROM arts WHERE id = ?");
+    // Start a transaction
+    $pdo->beginTransaction();
+
+    // Delete associated gallery images (if any)
+    $stmt = $pdo->prepare("SELECT image_path FROM art_images WHERE art_id = ?");
+    $stmt->execute([$id]);
+    $images = $stmt->fetchAll();
+    foreach ($images as $image) {
+        $imagePath = __DIR__ . '/../../assets/uploads/' . $image['image_path'];
+        if (file_exists($imagePath)) {
+            unlink($imagePath); // Delete the image file
+        }
+    }
+    $stmt = $pdo->prepare("DELETE FROM art_images WHERE art_id = ?");
+    $stmt->execute([$id]);
+
+    // Delete the main images
+    $stmt = $pdo->prepare("SELECT main_image, main_image_2 FROM arts WHERE id = ?");
     $stmt->execute([$id]);
     $art = $stmt->fetch();
-    
     if ($art) {
-        // Delete main image file
-        unlink(__DIR__ . '/../../assets/uploads/' . $art['main_image']);
-        
-        // Fetch and delete gallery images
-        $stmt = $pdo->prepare("SELECT image_path FROM art_images WHERE art_id = ?");
-        $stmt->execute([$id]);
-        $gallery_images = $stmt->fetchAll();
-        
-        foreach ($gallery_images as $image) {
-            unlink(__DIR__ . '/../../assets/uploads/' . $image['image_path']);
+        $mainImagePath = __DIR__ . '/../../assets/uploads/' . $art['main_image'];
+        $mainImage2Path = __DIR__ . '/../../assets/uploads/' . $art['main_image_2'];
+        if (file_exists($mainImagePath)) {
+            unlink($mainImagePath); // Delete main image
         }
-        
-        // Delete gallery images from database
-        $stmt = $pdo->prepare("DELETE FROM art_images WHERE art_id = ?");
-        $stmt->execute([$id]);
-        
-        // Delete art from database
-        $stmt = $pdo->prepare("DELETE FROM arts WHERE id = ?");
-        $stmt->execute([$id]);
-        
-        $pdo->commit();
+        if (file_exists($mainImage2Path)) {
+            unlink($mainImage2Path); // Delete main image 2
+        }
     }
+
+    // Delete the art record
+    $stmt = $pdo->prepare("DELETE FROM arts WHERE id = ?");
+    $stmt->execute([$id]);
+
+    // Commit the transaction
+    $pdo->commit();
     redirect('list.php');
 } catch (Exception $e) {
+    // Rollback the transaction on error
     $pdo->rollBack();
-    $error = "Error: " . $e->getMessage();
-    // Optionally log $error or display it
+    $_SESSION['error'] = "Failed to delete art: " . $e->getMessage();
     redirect('list.php');
 }
 ?>
