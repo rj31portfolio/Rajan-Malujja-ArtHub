@@ -48,10 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .container {
             max-width: 800px;
             margin: 50px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+           
         }
         h2 {
             text-align: center;
